@@ -3,7 +3,7 @@ import java.util.stream.Stream;
 
 public class SuperStack {
 
-    static void superStack(String[] operations) {
+   private static void superStack(String[] operations) {
         //initialize the stack list
         List<Integer> stack = new ArrayList<>();
         HashMap<Integer, Integer> map = new HashMap<>();

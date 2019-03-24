@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 
 public class MinimumUniqueArraySum {
 
-    static int getMinimumUniqueSum(int[] arr) {
+    private static int getMinimumUniqueSum(int[] arr) {
         int sum;
         ArrayList<Integer> arrayList = new ArrayList<>(arr.length);
         arrayList.add(arr[0]);
